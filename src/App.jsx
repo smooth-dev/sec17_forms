@@ -1,7 +1,15 @@
+import Header from "./components/Header";
+import Login from "./components/Login";
+
 function App() {
   return (
-    <h1>React Investment Calculator</h1>
-  )
+    <>
+      <Header />
+      <main>
+        <Login />
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
