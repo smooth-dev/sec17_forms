@@ -1,9 +1,12 @@
 export function isEmail(value) {
-  return value.includes('@');
+  console.log("email check :", value.includes("@"));
+  return value.includes("@");
 }
 
 export function isNotEmpty(value) {
-  return value.trim() !== '';
+  console.log("check empty :", value.trim() !== "");
+
+  return value.trim() !== "";
 }
 
 export function hasMinLength(value, minLength) {
