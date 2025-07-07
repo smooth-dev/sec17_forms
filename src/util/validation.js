@@ -1,11 +1,8 @@
 export function isEmail(value) {
-  console.log("email check :", value.includes("@"));
   return value.includes("@");
 }
 
 export function isNotEmpty(value) {
-  console.log("check empty :", value.trim() !== "");
-
   return value.trim() !== "";
 }
 
